@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Cosimo Cecchi <cosimoc@gnome.org> -->
+<application>
+  <id type="desktop">numptyphysics.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <summary>A crayon-drawing based physics puzzle game</summary>
+  <description>
+    <p>
+      Harness gravity with your crayon and set about creating blocks, ramps,
+      levers, pulleys and whatever else you fancy to get the little red thing
+      to the little yellow thing.
+    </p>
+  </description>
+  <url type="homepage">https://thp.io/2015/numptyphysics/</url>
+  <screenshots>
+    <screenshot type="default">https://thp.io/2015/numptyphysics/title.jpg</screenshot>
+  </screenshots>
+  <updatecontact>m@thp.io</updatecontact>
+</application>

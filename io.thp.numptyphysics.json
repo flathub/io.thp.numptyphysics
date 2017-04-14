@@ -1,0 +1,46 @@
+{
+    "app-id": "io.thp.numptyphysics",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "1.4",
+    "sdk": "org.freedesktop.Sdk",
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=pulseaudio"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/aclocal",
+        "/share/gtk-doc",
+        "/share/man",
+        "*.la", "*.a"
+    ],
+    "rename-desktop-file": "numptyphysics.desktop",
+    "rename-icon": "numptyphysics",
+    "modules": [
+        {
+            "name": "numptyphysics",
+            "no-autogen": true,
+            "make-install-args": [
+                "PREFIX=/app"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/thp/numptyphysics/archive/0.3.4.tar.gz",
+                    "sha256": "e00e1535c8246f3f1c3bab37d2e6f01259a14f59b38382299457b4b8447d2bc9"
+                },
+                {
+                    "type": "file",
+                    "path": "io.thp.numptyphysics.appdata.xml"
+                }
+            ],
+            "post-install": [
+                "mkdir -p /app/share/appdata",
+                "cp io.thp.numptyphysics.appdata.xml /app/share/appdata"
+            ]
+        }
+    ]
+}
