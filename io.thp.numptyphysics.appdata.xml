@@ -4,14 +4,12 @@
   <id type="desktop">numptyphysics.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <summary>A crayon-drawing based physics puzzle game</summary>
-  <description>
-    <p>
-      Harness gravity with your crayon and set about creating blocks, ramps,
-      levers, pulleys and whatever else you fancy to get the little red thing
-      to the little yellow thing.
-    </p>
-  </description>
+  <summary>Fun physics puzzle games</summary>
+  <summary xml:lang="pt_BR">Jogos nos quais a física é necessária para resolver quebra-cabeçasJogos nos quais a física é necessária para resolver quebra-cabeças</summary>
+  <summary xml:lang="es">Rompecabezas que utilizan tu conocimiento de la física</summary>
+  <description><p>Who knew the laws of physics could be so much fun? With this app, you can solve puzzles by drawing objects like pulleys, levers, and ramps. If your creations turn out right, you’ll accomplish that level’s task and move to the next level. This challenging game will also teach you some basic physics, but you’ll be having so much fun that you’ll hardly know you’re learning.</p></description>
+  <description xml:lang="pt_BR">Quem diria que as leis da física poderiam ser tão divertidas? Com este programa você pode resolver quebra-cabeças ao desenhando objetos como alavancas e rampas. Se suas criações derem certo você realizará a tarefa do nível em que você estiver e avançar para o próximo nível. Este jogo desafiador também vai te ensinar um pouco de física básica, mas você vai estar se divertindo tanto que dificilmente você vai saber que você já está aprendendo.<p></p></description>
+  <description xml:lang="es">¿Quién diría que las leyes de la física podrían ser tan divertidas? Con este programa, puedes resolver rompecabezas dibujando objetos como poleas, palancas y rampas. Si tus creaciones salen bien, cumplirás con la tarea de ese nivel y pasarás al nivel siguiente. Este juego te enseñará algo de física básica, pero te divertirás tanto que apenas notarás que estás aprendiendo.<p></p></description>
   <url type="homepage">https://thp.io/2015/numptyphysics/</url>
   <screenshots>
     <screenshot type="default">https://user-images.githubusercontent.com/26097419/45953705-4e7a8800-bfe1-11e8-9952-fad26fd14fdd.png</screenshot>
