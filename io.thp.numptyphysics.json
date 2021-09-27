@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thp/numptyphysics/archive/0.3.4.tar.gz",
-                    "sha256": "e00e1535c8246f3f1c3bab37d2e6f01259a14f59b38382299457b4b8447d2bc9"
+                    "url": "https://github.com/thp/numptyphysics/archive/0.3.8.tar.gz",
+                    "sha256": "e5581dffbbbac37c0600deb2a1dd53491dd458937d40ac3f1243b4a4ef1d69fb"
                 },
                 {
                     "type": "file",
