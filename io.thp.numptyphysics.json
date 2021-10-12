@@ -30,7 +30,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/thp/numptyphysics/archive/0.3.8.tar.gz",
-                    "sha256": "e5581dffbbbac37c0600deb2a1dd53491dd458937d40ac3f1243b4a4ef1d69fb"
+                    "sha256": "e5581dffbbbac37c0600deb2a1dd53491dd458937d40ac3f1243b4a4ef1d69fb",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/thp/numptyphysics/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": "\"https://github.com/thp/numptyphysics/archive/\\(.tag_name).tar.gz\""
+                    }
                 },
                 {
                     "type": "file",
