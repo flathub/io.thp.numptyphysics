@@ -15,7 +15,8 @@
         "/share/aclocal",
         "/share/gtk-doc",
         "/share/man",
-        "*.la", "*.a"
+        "*.la",
+        "*.a"
     ],
     "rename-desktop-file": "numptyphysics.desktop",
     "rename-icon": "numptyphysics",
