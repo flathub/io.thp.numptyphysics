@@ -1,8 +1,9 @@
 {
     "app-id": "io.thp.numptyphysics",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
+    "command": "numptyphysics",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -30,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thp/numptyphysics/archive/0.3.9.tar.gz",
-                    "sha256": "aa836d1a113b0891096ea63ecc1aefd6070c35eb5c378ad9003b849898926618",
+                    "url": "https://github.com/thp/numptyphysics/archive/0.3.10.tar.gz",
+                    "sha256": "b92f012f5b737be15e07aa702673a14271a0a0ae698041eaf1dea6ba8f0fb2e5",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/thp/numptyphysics/releases/latest",
