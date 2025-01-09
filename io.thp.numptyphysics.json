@@ -43,12 +43,11 @@
                 },
                 {
                     "type": "file",
-                    "path": "io.thp.numptyphysics.appdata.xml"
+                    "path": "io.thp.numptyphysics.metainfo.xml"
                 }
             ],
             "post-install": [
-                "mkdir -p /app/share/appdata",
-                "cp io.thp.numptyphysics.appdata.xml /app/share/appdata"
+                "install -Dt /app/share/metainfo io.thp.numptyphysics.metainfo.xml"
             ]
         }
     ]

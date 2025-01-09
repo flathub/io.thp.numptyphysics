@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Cosimo Cecchi <cosimoc@gnome.org> -->
-<application>
+<component type="desktop-application">
+  <id>io.thp.numptyphysics</id>
   <name>Numpty Physics</name>
-  <id type="desktop">numptyphysics.desktop</id>
+  <developer id="io.thp">
+    <name>Thomas Perl</name>
+  </developer>
+  <launchable type="desktop-id">numptyphysics.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <summary>A crayon-drawing based physics puzzle game</summary>
@@ -14,9 +18,17 @@
     </p>
   </description>
   <url type="homepage">https://thp.io/2015/numptyphysics/</url>
+  <url type="vcs-browser">https://gitlab.com/thp/numptyphysics</url>
+  <url type="bugtracker">https://gitlab.com/thp/numptyphysics/-/issues</url>
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/flathub/io.thp.numptyphysics/master/screenshots/1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/flathub/io.thp.numptyphysics/master/screenshots/2.png</screenshot>
+    <screenshot type="default">
+        <image>https://raw.githubusercontent.com/flathub/io.thp.numptyphysics/master/screenshots/1.png</image>
+        <caption>Make the Start box hit the star to start playing.</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://raw.githubusercontent.com/flathub/io.thp.numptyphysics/master/screenshots/2.png</image>
+        <caption>Draw a new object to knock the ball down the hill.</caption>
+    </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
@@ -25,5 +37,4 @@
     <release date="2021-06-18" version="0.3.8"/>
     <release date="2016-10-27" version="0.3.4"/>
   </releases>
-  <updatecontact>m@thp.io</updatecontact>
-</application>
+</component>
