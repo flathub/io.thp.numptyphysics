@@ -31,13 +31,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thp/numptyphysics/archive/0.3.10.tar.gz",
+                    "url": "https://gitlab.com/thp/numptyphysics/-/archive/0.3.10/numptyphysics-0.3.10.tar.gz",
                     "sha256": "b92f012f5b737be15e07aa702673a14271a0a0ae698041eaf1dea6ba8f0fb2e5",
                     "x-checker-data": {
                         "type": "json",
-                        "url": "https://api.github.com/repos/thp/numptyphysics/releases/latest",
+                        "url": "https://gitlab.com/api/v4/projects/thp%2Fnumptyphysics/releases/permalink/latest",
                         "version-query": ".tag_name",
-                        "url-query": "\"https://github.com/thp/numptyphysics/archive/\\(.tag_name).tar.gz\""
+                        "url-query": ".assets.sources[] | select(.format == \"tar.gz\") | .url"
                     }
                 },
                 {
