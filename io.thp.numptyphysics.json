@@ -38,7 +38,8 @@
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/thp%2Fnumptyphysics/releases/permalink/latest",
                         "version-query": ".tag_name",
-                        "url-query": ".assets.sources[] | select(.format == \"tar.gz\") | .url"
+                        "url-query": ".assets.sources[] | select(.format == \"tar.gz\") | .url",
+                        "timestamp-query": ".released_at"
                     }
                 },
                 {
