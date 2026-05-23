@@ -1,9 +1,11 @@
 {
     "app-id": "io.thp.numptyphysics",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "numptyphysics",
+    "rename-desktop-file": "numptyphysics.desktop",
+    "rename-icon": "numptyphysics",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -12,22 +14,19 @@
         "--socket=pulseaudio"
     ],
     "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/aclocal",
-        "/share/gtk-doc",
-        "/share/man",
-        "*.la",
-        "*.a"
+        "/share/man"
     ],
-    "rename-desktop-file": "numptyphysics.desktop",
-    "rename-icon": "numptyphysics",
     "modules": [
+        "shared-modules/SDL2/SDL2_image.json",
+        "shared-modules/SDL2/SDL2_ttf.json",
         {
             "name": "numptyphysics",
             "no-autogen": true,
             "make-install-args": [
                 "PREFIX=/app"
+            ],
+            "post-install": [
+                "install -Dm644 io.thp.numptyphysics.metainfo.xml -t /app/share/metainfo/"
             ],
             "sources": [
                 {
@@ -46,9 +45,6 @@
                     "type": "file",
                     "path": "io.thp.numptyphysics.metainfo.xml"
                 }
-            ],
-            "post-install": [
-                "install -Dt /app/share/metainfo io.thp.numptyphysics.metainfo.xml"
             ]
         }
     ]
